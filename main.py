@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-heart_disease_model = pickle.load(open('C:/Users/Lenovo/Downloads/heart_model.sav','rb'))
+heart_disease_model = pickle.load(open('heart_model.sav','rb'))
 
 
 # page title
